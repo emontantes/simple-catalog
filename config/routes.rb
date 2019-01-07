@@ -2,7 +2,6 @@ Rails.application.routes.draw do
 
   get 'products/index'
   get 'products/show'
-  root 'pages#home'
 
   get 'pages/home'
   get 'pages/about'
