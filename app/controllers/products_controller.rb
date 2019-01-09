@@ -3,6 +3,4 @@ class ProductsController < ApplicationController
     @products = Product.all
   end
 
-  def show
-  end
 end
